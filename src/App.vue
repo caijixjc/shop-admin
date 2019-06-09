@@ -1,14 +1,7 @@
 <template>
-   <div id="app">
-    hello vue-cli
-    
-    <!-- 调用Element UI组件 -->
-    <el-row>
-      <el-button type="primary">主要按钮</el-button>
-    </el-row>
-    
+ <div>
+    <router-view></router-view>
   </div>
-    
 </template>
 
 <script>
@@ -18,5 +11,21 @@ export default {
 </script>
 
 <style>
+*{
+   margin:0;
+   padding:0;
+ }
 
+ ul,li,ol{
+   list-style: none;
+ }
+
+ a{
+   color:#333;
+ }
+
+ /* 类似于span */
+ i,em{
+   font-style: normal;
+ }
 </style>
